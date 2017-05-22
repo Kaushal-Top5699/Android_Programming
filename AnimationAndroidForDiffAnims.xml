@@ -1,4 +1,7 @@
-//go to res file on left side of your screen then right click and create a  new directory named anim if its not default_present, then right click on this new directory, click on New then click on Animation resource file give the file name of your or according to your animation hit enter or return…remember every time make a fine in anim for every new animation
+//go to res file on left side of your screen then right click and create a  new directory named anim if its not 
+default_present, then right click on this new directory, click on New then click on Animation resource file 
+give the file name of your or according to your animation hit enter or return…remember 
+every time make a fine in anim for every new animation
 
 //Below code is for bounceAnimation
 
