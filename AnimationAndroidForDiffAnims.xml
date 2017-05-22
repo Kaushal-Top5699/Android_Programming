@@ -1,0 +1,124 @@
+//go to res file on left side of your screen then right click and create a  new directory named anim if its not default_present, then right click on this new directory, click on New then click on Animation resource file give the file name of your or according to your animation hit enter or return…remember every time make a fine in anim for every new animation
+
+//Below code is for bounceAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+android=fillAfter="true"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <scale
+        android:fromXScale="1.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0"/>
+</set>
+
+
+//Again make a new file for next animation by right clicking on anim and give name to your file as your animation
+
+
+
+//Below code is for fade_inAnimation
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    android:fillAfter="true" >
+    <alpha
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0"/>
+</set>
+
+//Below code is for fade_inOutAnimation
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+android:fillAfter="true"
+    <alpha
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0"/>
+    <alpha
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="0.0"/>
+</set>
+
+
+//Below code is for fade_inAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+android:fillAfter="true" >
+    <alpha
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:toAlpha="0.0"/>
+</set>
+
+
+//Below code is for flashAnimation
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:repeatMode="reverse"
+        android:repeatCount="10"/>
+</set>
+
+
+//Below code is for leftRightAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fromXDelta="-500%"
+        android:toXDelta="0%"/>
+</set>
+
+
+//Below code is for RightLeftAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fillAfter="false"
+        android:fromXDelta="500%"
+        android:toXDelta="0%"/>
+</set>
+
+
+//Below code is for RotateLeftAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:fromDegrees="360"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:interpolator="@android:anim/cycle_interpolator"/>
+</set>
+
+//Below code is for RotateRightAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:interpolator="@android:anim/cycle_interpolator"/>
+</set>
+
+
+//Below code is for Top_BotAnimation
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fillAfter="false"
+        android:fromXDelta="-100%"
+        android:toXDelta="0%"/>
+</set>
